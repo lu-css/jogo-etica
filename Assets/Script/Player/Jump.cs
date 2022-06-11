@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Jump : MonoBehaviour
@@ -9,8 +7,6 @@ public class Jump : MonoBehaviour
     public Vector3 groundCheckPos;
     public float groundCheckSize = 1f, jumpForce;
     public LayerMask layer;
-
-
 
     void Start()
     {
